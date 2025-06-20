@@ -1,4 +1,6 @@
-package com.tnsif.day4.secondpackage;
+package day4.secondpackage;
+
+
 import day4.Base;
 
 public class Executor {

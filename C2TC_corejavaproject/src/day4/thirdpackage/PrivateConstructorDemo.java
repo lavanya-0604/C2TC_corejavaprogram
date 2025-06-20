@@ -1,4 +1,6 @@
-package com.tnsif.day4.thirdpackage;
+package day4.thirdpackage;
+
+import day4.thirdpackage.MyClass;
 
 public class PrivateConstructorDemo {
 	public static void main(String s[]) {
