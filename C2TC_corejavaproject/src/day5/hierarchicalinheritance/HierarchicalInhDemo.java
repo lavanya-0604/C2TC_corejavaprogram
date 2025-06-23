@@ -3,7 +3,7 @@ package day5.hierarchicalinheritance;
 public class HierarchicalInhDemo {
 
 	public static void main(String[] args) {
-		Person p1 = new Person();
+		Person p1 = new Person("Anit","chennai");
 		System.out.println("----------------- Person Details ---------------------");
 		System.out.println(p1);
 

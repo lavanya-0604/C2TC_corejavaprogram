@@ -4,6 +4,7 @@ public class PrimitiveDataType {
 	 public static void main(String[] args) {
 
 	        // byte takes 1 byte
+		    //byte : Range: -128 to 127
 	        byte byteMax = 127;
 	        byte byteMin = -128;
 
@@ -12,6 +13,7 @@ public class PrimitiveDataType {
 	            " Max range of byte is " + byteMax);
 
 	        // short - 2 bytes
+	        //short : Range: -32,768 to 32,767
 	        short shortMax = 32767;
 	        short shortMin = -32768;
 	        System.out.println(
@@ -26,6 +28,7 @@ public class PrimitiveDataType {
 	            " Maxint range of byte is " + maxInt);
 
 	        // long - 8 bytes
+	        //long : ±9 quintillion
 	        long maxLong = 9223372036854775807L;
 	        long minLong = -9223372036854775808L;
 	        System.out.println(
@@ -33,7 +36,7 @@ public class PrimitiveDataType {
 	            " Maxlong range of byte is " + maxLong);
 
 	        float f = 3234.141243278345f;
-	        double d = 3456.14124512345678902345678914f;
+	        double d = 3456.14124512345678902345678914d;
 	        System.out.println("float value is " + f + " double value is " + d);
 
 	        // boolean

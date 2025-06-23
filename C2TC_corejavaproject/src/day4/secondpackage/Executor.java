@@ -1,7 +1,7 @@
 package day4.secondpackage;
 
 
-import day4.Base;
+import day4.Base;//imported the base class from the same package(package_name.class_name)
 
 public class Executor {
 	public static void main(String[] args) {

@@ -4,7 +4,7 @@ package day5.hasa;
 public class Person {
 
 	private String name;
-	private Address address;
+	private Address address;//address in Address class(class_name instance_variable)
 
 	public Person(String name, Address address) {
 		this.name = name;
@@ -32,6 +32,6 @@ public class Person {
 	public void displayInfo() {
 		System.out.println("Name: " + name);
 		System.out.println("Address: " + address.getStreet() + ", " + address.getCity() + ", " + address.getState()
-				+ " " + address.getPostalCode());
+				+ " " + address.getPostalCode());//no toString because there is no extends..
 	}
 }

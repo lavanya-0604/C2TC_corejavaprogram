@@ -2,11 +2,11 @@ package day4;
 
 public class Base {
 	/*
-	 * Declaring default, public, private and protected variables 
+	 * Declaring default, public, private and protected variables (access modifiers)
 	 */
 	int varDefault=10;
 	public int varPublic=20;
-	private int varPrivate=30;
+	private int varPrivate=30;//private can be called by the getter and setter method
 	protected int varProtected=40;
 	
 	/*
@@ -25,7 +25,7 @@ public class Base {
 		System.out.println("Public Variable : "+varPublic);
 	}
 	
-	private void methodPrivate()
+	private void methodPrivate()//private cannot be accessible
 	{
 		System.out.println("Private access Base class");
 		System.out.println("Private Variable : "+varPrivate);

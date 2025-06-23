@@ -10,7 +10,7 @@ public static void main(String args[])
 	System.out.print("Enter Customer Id : ");
 	id=sc.nextInt();
 	
-	sc.nextLine();
+	sc.nextLine();//to start in the new line
 	System.out.print("Enter Customer Name : ");
 	name=sc.nextLine();
 	

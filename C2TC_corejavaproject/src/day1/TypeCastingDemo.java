@@ -1,5 +1,5 @@
 package day1;
-
+//TypeCasting in Java means converting a variable from one data type to another.
 public class TypeCastingDemo {
 	 public static void main(String[] args) {
 

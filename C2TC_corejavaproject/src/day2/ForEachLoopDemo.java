@@ -3,7 +3,9 @@ package day2;
 public class ForEachLoopDemo {
 	 public static void main(String[] args) {
 	        int a[] = {10,20,30,40,50};
-	        for(int i:a) {
+	        for(int i:a) {//enhanced for loop 
+	        	//a is an array
+	        	//int i takes the value of each element one by one.
 	            System.out.println(i);
 	        }
 	        
@@ -16,7 +18,7 @@ public class ForEachLoopDemo {
 	        
 	        String s1[] = {"Java","programming","learning"};
 	        for(String s:s1) {
-	            System.out.print(s + " ");
+	            System.out.print(s + " ");//" " it is used to provide the gap 
 	        }
 	    }
 }

@@ -28,7 +28,7 @@ public class PersonDemo {
 		city = sc.nextLine();
 		p1 = new Person(name, age, city); // parameterized constructor invoked);
 		System.out.println("Person Details Name : " + p1.getPersonName() + "\tAge : " + p1.getPersonAge() + "\tCity : "
-				+ p1.getPersonCity());
+				+ p1.getPersonCity());//sysout with get() is there bcs toString doesnt presented here
 		sc.close();
 
 	}
